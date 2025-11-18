@@ -29,5 +29,5 @@ Os dados:
 Exemplo básico usado no projeto:
 
 ```js
-localStorage.setItem("lista", JSON.stringify(array));
-const dados = JSON.parse(localStorage.getItem("lista"));
+    localStorage.setItem("dados", JSON.stringify(dados));
+    const voltar = JSON.parse(localStorage.getItem('dados'));
